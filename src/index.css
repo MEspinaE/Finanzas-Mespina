@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #8f8fcc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #c9c9e7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.balance h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.balance h3 {
+  font-size: 32px;
+  color: green;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form input {
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background: blue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: darkblue;
+}
+
+.transaction-list h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.transaction-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 4px solid green;
+  border-radius: 4px;
+}
+
+.transaction-list li.expense {
+  border-color: red;
+}
+
+/* Contenedor para las secciones de Ingresos y Egresos */
+.income-expense-container {
+  display: flex;
+  
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  margin-top: 20px;
+}
+
+.section {
+  width: 43%; 
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.section input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.section button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.section button:hover {
+  background-color: #45a049;
+}
